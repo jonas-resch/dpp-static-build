@@ -27,6 +27,7 @@ add_executable(${PROJECT_NAME}
 
 # Linking libraries
 target_link_libraries(${PROJECT_NAME}
+    zstd
     dpp
     opus
     opusfile
